@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+     <div class="left">
+        <a href="/">Taheem Khan</a>
+     </div>
+     <div class="right">
+        <a href="https://github.com/taheem-k" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/taheem-khan-ba7400295/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+
+        <a href="mailto:taheemk28@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+     </div>
+    </nav>
+
+    <main>
+     <!--SECTION 1: Hero -->
+     <section class="hero-section">
+        <div class="text">
+           <h2>Hi, I'm Taheem</h2> 
+        <p>I'm a second year student studying Applied Math and Statistics and Economics at Stony Brook University. I'm actively seeking internship opportunities in data science, fintech, and related fields, where I can apply my analytical skills and contribute to real-world projects. I'm eager to collaborate, learn, and grow with a dynamic team.</p>
+
+        <div class="links">
+            <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+            </a>
+
+            <a href="#aboutme">
+                <i class="fa-solid fa-pen"></i>
+            <span>About Me</span>
+            </a>
+
+            <a href="#resume">
+              <i class="fa-regular fa-file"></i>
+          <span>Resume</span>
+          </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+            </a>
+        </div>
+        </div>
+
+        <div class="headshot">
+            <img src="pictures/picforweb.webp" alt="taheem khan headshot">
+
+        </div>
+     </section>
+
+     <!--SECTION 2: Skills -->
+     <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+
+        <div class="cells">
+          <div class="cell">
+              <img src="pictures/html-logo.webp" alt="html logo">
+              <span>HTML</span>
+          </div>
+          <div class="cell">
+              <img src="pictures/css-logo.webp" alt="css logo">
+              <span>CSS</span>
+          </div>
+
+          <div class="cell">
+              <img src="pictures/python-icon.webp" alt="python logo">
+              <span>Python</span>
+          </div>
+
+          <div class="cell">
+            <img src="pictures/Microsoft_Office_logo_(2013–2019).svg.webp" alt="office logo">
+            <span>Microsoft Office</span>
+        </div>
+      </div>
+     </section>
+     
+
+     <!--SECTION 3: Testimony -->
+     <section id="aboutme" class="aboutme-section">
+      <h2>About Me</h2>
+    
+      <div class="group">
+        <div class="person-details">
+          <img src="pictures/2ndpic.webp" alt="Taheem">
+        </div>
+        <div class="text">
+          <p> I'm a dedicated second-year student at Stony Brook University, pursuing a double major in Applied Mathematics and Economics. With a keen interest in data science and fintech, I’m passionate about applying quantitative analysis to solve complex problems. I focus on financial modeling, data-driven decision-making, and exploring how technology shapes the future of finance. Through my studies, I aim to develop the skills to bridge the gap between mathematics, economics, and the evolving world of data. </p>
+        </div>
+      </div>
+    </section>
+
+     <!--SECTION 4: Resume -->
+     <section id="resume" class="resume-section">
+      <h2>My Resume</h2>
+      <div class="resume-container">
+        <div class="resume-actions">
+          <a href="pictures/Updated Resume 11_2024.pdf" target="_blank" class="download-btn" download>Download Resume</a>
+        </div>
+        <div class="resume-viewer">
+          <iframe src="pictures/Updated Resume 11_2024.pdf" frameborder="0" title="Resume" class="resume-iframe"></iframe>
+        </div>
+      </div>
+    </section>
+    <!--SECTION 5: Contact-->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>I'm always open to exploring new opportunities, whether it's an internship or job in data science, fintech, or related fields, collaborating on a project or research, or simply exchanging ideas and networking. If you have questions about my work, skills, or background, or if you're interested in discussing potential collaborations, feel free to reach out. Fill out the form, and I'll get back to you as soon as possible. I look forward to connecting!</p>
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+      
+        </form>
+      </div>
+
+    </section>
+    </main>
+</body>
+</html>
